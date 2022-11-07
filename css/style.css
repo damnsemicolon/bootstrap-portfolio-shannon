@@ -1,3 +1,4 @@
+/* CSS For Navbar */
 .navbar-brand {
 font-size:2em;
 font-weight: 500;
@@ -12,10 +13,7 @@ color:white;
 color:white;
 }
 
-body {
-    background-color: #f8f8f8;
-}
-
+/* CSS for Jumbotron */
 .jumbotron {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://picsum.photos/id/56/600/300) no-repeat;
     background-size: cover;
@@ -42,21 +40,23 @@ body {
     width: 15em;
     border-radius: 50%;
     border:3px solid white;
-}
-
-.imagebox {
-    position:relative;
-}
-
-.avatar-hover {
     position:absolute;
     right:33%;
     top:0;
     display:none;
 }
 
+.imagebox {
+    position:relative;
+}
+
 .imagebox:hover .avatar-hover {
     display: block;
+}
+
+/* CSS for Body */
+body {
+    background-color: #f8f8f8;
 }
 
 .section-title {
@@ -64,6 +64,11 @@ body {
     margin-top:20px;
 }
 
+.btn:hover {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+    
+/* CSS for Work/Projects Section */
 a, a:hover {
     text-decoration: none;
     color:black;
@@ -78,6 +83,7 @@ a, a:hover {
     filter:brightness(100%);
 }
 
+/* CSS for Skills/To be learnt */
 .progress {
     margin-bottom:20px;
 }
@@ -86,6 +92,7 @@ a, a:hover {
     padding:100px 0 100px 0;
 }
 
+/* CSS for About Me */
 .about-avatar {
     align-content:center;
     width: 15em;
@@ -97,10 +104,7 @@ a, a:hover {
     padding-top:10px;
 }
 
+/* CSS for Footer */
 footer {
     margin-top: 50px;
-}
-
-.btn:hover {
-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
