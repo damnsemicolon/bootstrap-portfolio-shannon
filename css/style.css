@@ -12,6 +12,10 @@ color:white;
 color:white;
 }
 
+body {
+    background-color: #f8f8f8;
+}
+
 .jumbotron {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://picsum.photos/id/56/600/300) no-repeat;
     background-size: cover;
@@ -82,6 +86,13 @@ a, a:hover {
     padding:100px 0 100px 0;
 }
 
+.about-avatar {
+    align-content:center;
+    width: 15em;
+    border-radius: 50%;
+    border:3px solid white;
+}
+
 .fa-solid, .fa-regular, .fa-brands {
     padding-top:10px;
 }
@@ -91,5 +102,5 @@ footer {
 }
 
 .btn:hover {
-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
